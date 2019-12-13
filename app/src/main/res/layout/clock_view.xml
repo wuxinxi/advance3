@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.wxx.view.advance.clockdial.ClockView
+            android:id="@+id/clockView"
+            app:clock_ring_color="@color/colorPrimary"
+            app:clock_big_scale_color="@color/colorPrimary"
+            app:clock_small_scale_color="@color/colorPrimary"
+            app:clock_hour_color="@color/colorPrimaryDark"
+            app:clock_min_color="@android:color/holo_green_light"
+            app:clock_second_color="@color/colorAccent"
+            app:clock_text_color="@android:color/holo_blue_bright"
+            app:clock_bg_fill="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

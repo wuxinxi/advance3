@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+               android:visibility="gone"
+               android:src="@mipmap/ic_launcher_round"/>
+
+    <com.wxx.view.custom.CustomMoveView
+            android:layout_width="100dp"
+            android:visibility="gone"
+            android:background="@color/colorPrimary"
+            android:layout_height="100dp"/>
+
+    <com.wxx.view.custom.CustomMoveView2 android:layout_width="100dp" android:layout_height="100dp"
+
+                                         android:visibility="gone"
+                                         android:background="@color/colorAccent"/>
+
+
+    <com.wxx.view.custom.InvalidTextView
+            android:layout_width="wrap_content"
+            android:text="测试测试测试测试测试"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:layout_height="200dp"/>
+
+    <com.wxx.view.paint.RoundRect
+            android:visibility="gone"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <com.wxx.view.paint.EffectView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+</LinearLayout>
