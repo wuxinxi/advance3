@@ -1,4 +1,4 @@
-package com.wxx.view.advance.ripple
+package com.wxx.view.advance.view.ripple
 
 import android.animation.Animator
 import android.animation.AnimatorSet

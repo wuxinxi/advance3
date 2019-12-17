@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.wxx.view.advance.group.MyLinearLayout android:layout_width="wrap_content"
+                                               android:visibility="gone"
+                                               android:background="@color/colorPrimary"
+                                               android:layout_height="wrap_content">
+
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="HAHAHAH"/>
+
+        <Button android:layout_width="100dp" android:layout_height="wrap_content"/>
+        <Button android:layout_width="300dp" android:layout_height="300dp"/>
+
+    </com.wxx.view.advance.group.MyLinearLayout>
+
+    <com.wxx.view.advance.group.LabelLayout android:layout_width="wrap_content"
+                                            android:background="@color/colorPrimary"
+                                            android:layout_height="wrap_content">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AAAA"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BBBBBBBBBBBB"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CCC"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DDDDDDDDDDD"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EE"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FFFFFF"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="HHHHHHHHHHHHHHHHHHHHHHH"/>
+    </com.wxx.view.advance.group.LabelLayout>
+</LinearLayout>

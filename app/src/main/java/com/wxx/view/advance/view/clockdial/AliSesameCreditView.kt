@@ -1,4 +1,4 @@
-package com.wxx.view.advance.clockdial
+package com.wxx.view.advance.view.clockdial
 
 import android.animation.ValueAnimator
 import android.content.Context

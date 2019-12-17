@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 class ProgressMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.progress_vew)
+        setContentView(R.layout.view_group)
 
     }
 
